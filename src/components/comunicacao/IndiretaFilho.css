@@ -1,0 +1,15 @@
+.IndiretaFilho input {
+  font-size: 1.4rem;
+  width: 150px;
+}
+.IndiretaFilho button {
+  height: 100%;
+  width: 100%;
+  margin-top: 10px;
+  align-items: center;
+  background-color: #ffcc00;
+  border-color: white;
+  color: white;
+  border-radius: 20px;
+  font-size: 1.4rem;
+}

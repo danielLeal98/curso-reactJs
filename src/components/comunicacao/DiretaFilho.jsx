@@ -3,9 +3,11 @@ import React from "react";
 export default (props) => {
   return (
     <div>
-      <div>{props.texto}</div>
-      <div>{props.numero}</div>
-      <div>{props.bool ? "Verdadeiro" : "False"}!</div>
+      <div>{props.nome}</div>
+      <div>
+        <strong>{props.idade}</strong>
+      </div>
+      <div>{props.nerd ? "Verdadeiro" : "False"}!</div>
     </div>
   );
 };
