@@ -1,5 +1,6 @@
 import React from "react";
 import "./App.css";
+import logo from "./logo.svg";
 import Primeiro from "./components/basicos/Primeiro";
 import ComParametro from "./components/basicos/ComParametro";
 import Aleatorio from "./components/basicos/Aleatorio";
@@ -15,10 +16,19 @@ import IndiretaFilho from "./components/comunicacao/IndiretaFilho";
 import IndiretaPai from "./components/comunicacao/IndiretaPai";
 import Input from "./components/formulário/Input";
 import Contador from "./components/contador/Contador";
+import Mega from "./components/mega/Mega";
 
 export default () => (
   <div className='App'>
-    <h1>Fundamentos de React</h1>
+    <h1>Fundamentos React</h1>
+    <img
+      src={logo}
+      className='App-logo'
+      alt='logo'
+      width='auto'
+      height='50px'
+    />
+    <h4>Desenvolvedor: Daniel Matheus</h4>
     <div className='Cards'>
       <Card titulo='#01 - Primeiro Componente' color='#080'>
         <Primeiro></Primeiro>
@@ -54,11 +64,14 @@ export default () => (
       <Card titulo='#09 - Comunicação Indireta' color='#ffcc00'>
         <IndiretaPai />
       </Card>
-      <Card titulo='#10 - Componente Controloado (Input)' color='#000'>
+      <Card titulo='#10 - Componente Controlado (Input)' color='#000'>
         <Input />
       </Card>
       <Card titulo='#11 - Contador' color='#424242'>
         <Contador numeroInicial={10} />
+      </Card>
+      <Card titulo='#12 - Mega Sena' color='#4e4a0a'>
+        <Mega qtde={8} />
       </Card>
     </div>
   </div>
