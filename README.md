@@ -1,4 +1,4 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+In this repository I built some examples with the fundamentals of reactJS I created to put into practice the concepts.
 
 ## Available Scripts
 
