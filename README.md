@@ -1,4 +1,4 @@
-In this repository I built some examples with the fundamentals of reactJS I created to put into practice the concepts.
+Neste repositório construí alguns exemplos com os fundamentos do reactJS para colocar em prática os conceitos.
 
 ## ScreenShot
 <p align=center> 
