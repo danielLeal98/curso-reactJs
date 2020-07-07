@@ -1,6 +1,8 @@
 import React from "react";
 import "./App.css";
 import logo from "./logo.svg";
+import iconLinkedin from "./assets/iconLinkedin.png";
+import iconGitHub from "./assets/iconGitHub.png";
 import Primeiro from "./components/basicos/Primeiro";
 import ComParametro from "./components/basicos/ComParametro";
 import Aleatorio from "./components/basicos/Aleatorio";
@@ -21,13 +23,17 @@ import Mega from "./components/mega/Mega";
 export default () => (
   <div className='App'>
     <h1>Fundamentos React</h1>
-    <img
-      src={logo}
-      className='App-logo'
-      alt='logo'
-      width='auto'
-      height='50px'
-    />
+    <div className='divIcons'>
+      <a href='https://reactjs.org/' target='_blank'>
+        <img src={logo} className='icon' />
+      </a>
+      <a href='https://github.com/danielLeal98' target='_blank'>
+        <img src={iconGitHub} className='icon ' />
+      </a>
+      <a href='https://www.linkedin.com/in/danielleal98/' target='_blank'>
+        <img src={iconLinkedin} className='icon ' />
+      </a>
+    </div>
     <h4>Desenvolvedor: Daniel Matheus</h4>
     <div className='Cards'>
       <Card titulo='#01 - Primeiro Componente' color='#080'>
